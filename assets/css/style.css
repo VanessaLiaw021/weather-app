@@ -1,0 +1,56 @@
+
+/* Universal Selectors */
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* Element Selectors */
+body {
+    background-image: url("../images/background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Start Header Section */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 30px 0;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-weight: 100px;
+}
+
+form input {
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid black;
+    width: 400px;
+}
+
+form #search {
+    all: unset;
+    border: 1px solid white;
+    background-color: white;
+    padding: 6px;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* End Header Section */
